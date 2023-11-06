@@ -1,0 +1,11 @@
+#include <iostream>
+
+using namespace std;
+
+int main(){
+
+    std::cout<<"Numele studentului\n";
+    std::cout<<"Grupa Studentului\n";
+    std::cout<<"Specializarea Studentului\n";
+    return 0;
+}
