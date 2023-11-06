@@ -1,0 +1,20 @@
+#include <iostream>
+
+using namespace std;
+
+int main()
+{
+    int x;
+    std::cout << "Introduceti un numar intreg:";
+    scanf("%d",&x);
+    if(x % 2==0)
+    {
+        cout<<" Este un numar par.\n",x;
+    }
+   else{
+    cout<<" Este un numar impar.\n",x;
+   }
+        return 0;
+
+    }
+
