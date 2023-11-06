@@ -1,0 +1,13 @@
+#include <iostream>
+
+using namespace std;
+
+int main(){
+
+std::cout<<" NrMatricol            Student          Media \n";
+std::cout<<" 111                   Popescu Ion      10 \n";
+std::cout<<" 2                     Ionescu Ana      9.75 \n";
+std::cout<<" 35                    Popa Dan         8.45\n";
+return 0;
+
+}
