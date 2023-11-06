@@ -1,0 +1,19 @@
+#include <iostream>
+
+using namespace std;
+
+int main()
+{
+    int x;
+    std::cout << "Zimi nota pe care ai luat-o la examen:";
+    scanf("%d",&x);
+    if(x >=5)
+    {
+        cout<<" Felicitari ai promovat examenul!\n",x;
+    }
+   else{
+    cout<<" Imi pare rau nu ai promovat examenul!  :(((.\n",x;
+   }
+        return 0;
+
+    }
