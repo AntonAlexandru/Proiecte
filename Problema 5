@@ -1,0 +1,12 @@
+#include <iostream>
+
+using namespace std;
+
+int main()
+{
+    int num=220;
+std::cout<<"Valoarea in octal:"<<oct <<num;
+  std::cout<<"\nValoarea in hexazecimal:"<<hex<<num;
+
+    return 0;
+}
