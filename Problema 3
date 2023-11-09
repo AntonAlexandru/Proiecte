@@ -6,7 +6,7 @@ int main()
 {
     int x;
     std::cout << "Introduceti un numar intreg:";
-    scanf("%d",&x);
+    cin>>x;
     if(x % 2==0)
     {
         cout<<" Este un numar par.\n",x;
